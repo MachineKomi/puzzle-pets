@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { Navigation } from '@/components/layout/Navigation';
 import { useSettingsStore } from '@/store/settings';
+import { ClientHydration } from '@/components/layout/ClientHydration';
 
 export default function MainLayout({
     children,

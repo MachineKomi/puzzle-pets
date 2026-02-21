@@ -25,3 +25,10 @@
 - **Testing**: Integrated Playwright. Basic E2E Smoke tests validated rendering and navigation successfully.
 - **Assets**: Documented missing Navigation and UI components for the user. Imported legacy pets and gems securely.
 
+
+## [Date: 2026-02-21] - U3 Completion
+- **IndexedDB**: Introduced modular idb wrapper capable of versioning migrations and full offline persistence.
+- **Zustand Mutators**: Designed debounced Game State operations ensuring smooth React rendering without thrashing DB writes.
+- **SSR Hydration**: Wrapped React nodes to gracefully await DB read on cold-boots preventing hydration mismatches.
+- **Unit Assertions**: Successfully scaffolded Vitest framework. Wrote spec files validating XP thresholds, coin additions, and db wipes via mocked abstractions.
+

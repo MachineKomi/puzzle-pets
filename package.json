@@ -8,28 +8,38 @@
     "start": "next start",
     "lint": "eslint",
     "gen:assets": "ts-node scripts/gen-assets.ts",
-    "test": "echo \"Testing to be implemented in U2\" && exit 0"
+    "test": "vitest run"
   },
   "dependencies": {
     "idb": "^8.0.3",
+    "lodash.debounce": "^4.0.8",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "uuid": "^13.0.0",
     "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/uuid": "^11.0.0",
+    "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
+    "jsdom": "^28.1.0",
     "prettier": "^3.8.1",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.0.18"
   }
 }

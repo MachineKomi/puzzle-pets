@@ -6,7 +6,7 @@
 - Brownfield: Strict constraint to reuse existing art assets, art style, theme, and design principles from the legacy Godot repo (Sudoku-Pets).
 
 ## Current Phase
-**Moving from Inception to Construction - PENDING APPROVAL**
+**Construction - U2 Complete (Moving to U3: Core Puzzle Engine)**
 
 ## State Overview
-Replatforming the existing Godot MVP to a Web App MVP representing a vertical slice of gameplay (puzzle -> reward -> pet progression -> persistence -> deploy).
+Replatforming the existing Godot MVP to a Web App MVP. App navigation shell, E2E tests, and basic routing are complete. Preparing to build the Sudoku and Memory engine views.

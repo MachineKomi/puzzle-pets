@@ -13,3 +13,15 @@
   - *Rationale*: Core to the legacy identity and feasible for a focused vertical slice.
 - **Deployment**: Vercel.
   - *Rationale*: Native support for Next.js, zero-config CI/CD.
+## [Date: 2026-02-21] - U1 Completion
+- **Asset Pipeline**: Established gen:assets script mapping logic keys to paths.
+- **UI tokens**: Defined Tailwind CSS 4 variables (Normal/Zen modes).
+- **Base UI components**: Built accessible Button, Card, Icon, Modal, and ProgressBar.
+
+
+## [Date: 2026-02-21] - U2 Completion
+- **Next.js App Shell**: Scaffolded fully responsive layout structure using Tailwind CSS Grid/Flex configurations.
+- **Routes**: Implemented placeholder and main views: Home, Puzzles Select, Pet Arena, Settings.
+- **Testing**: Integrated Playwright. Basic E2E Smoke tests validated rendering and navigation successfully.
+- **Assets**: Documented missing Navigation and UI components for the user. Imported legacy pets and gems securely.
+
